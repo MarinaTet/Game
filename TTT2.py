@@ -42,7 +42,7 @@ def tictactoe_1d():
     while True:
         print("Current board:", board)
         
-        # Player's turn
+        # Player's turn - try to win
         board = player_move(board)
         status = evaluate(board)
         if status == 'x':
